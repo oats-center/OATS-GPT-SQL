@@ -20,7 +20,7 @@ This code will allow you to create a local api for your sql database.  We will t
 **AFTER INSTALLTION** \
 1: ngrok http <LOCALHOST_HTTP_LINK_HERE> \
 2: "Forwarding" link will be the link used for the external api endpoint \
-3: (optional) run pyhoncode below to test 
+3: (optional) run python code below to test 
 ```
 import requests
 
