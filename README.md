@@ -5,8 +5,8 @@ This code will allow you to create a local api for your sql database.  We will t
 1: connect to tailscale (make sure account has access to ai_playground database or whatever database for usage) \
 2: clone the repository \
 3: install requirements.txt in your environment \
-4: enter table_catalog varible with the database_name \
-5: create a connection link with the given format \
+4: (In the gpt_sql.py file) enter table_catalog variable with the database_name \
+5: (In the gpt_sql.py file) create a connection link with the given format \
 6: run "python {file_name}.py" in terminal to start the local host \
 7: You will see a link after Running on, it will look like this "Running on <Link>". That link will be used for the NGROK <LOCALHOST_HTTP_LINK_HERE>
 
