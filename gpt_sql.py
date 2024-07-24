@@ -11,7 +11,7 @@ def run_query(input_query):
     # Connect to oats1.server.oats server
     # Requires tailscale to be active
     CONNECTION = #TODO Replace with personal connection link here (format below)
-    #postgresql://username:password@oats1.server.oats:port_numer/database_name
+    #postgresql://username:password@oats1.server.oats:port_number/database_name
     conn = None
 
     try:
