@@ -8,7 +8,7 @@ This code will allow you to create a local api for your sql database.  We will t
 4: (In the gpt_sql.py file) enter table_catalog variable with the database_name \
 5: (In the gpt_sql.py file) create a connection link with the given format \
 6: run "python {file_name}.py" in terminal to start the local host \
-7: You will see a link after Running on, it will look like this "Running on <Link>". That link will be used for the NGROK <LOCALHOST_HTTP_LINK_HERE>
+7: In the output, you will see a link after "running on", it will look like this "Running on 'Link'". That link will be used for the NGROK <LOCALHOST_HTTP_LINK_HERE>
 
 
 # Using NGROK to Connect Local Host to Internet (https://ngrok.com/download)
