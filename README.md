@@ -14,7 +14,7 @@ This code will allow you to create a local api for your sql database.  We will t
 # Using NGROK to Connect Local Host to Internet (https://ngrok.com/download)
 **BEFORE INSTALLATION** \
 1: run command prompt with administrator access  
-2: run "choco install ngrok" for Windows and "brew install ngrok/ngrok/ngrok" on Mac \
+2: run "choco install ngrok" for Windows or "brew install ngrok/ngrok/ngrok" on Mac \
 3: run "ngrok config add-authtoken <AUTHCODE_HERE>" (authcode will be given when making ngrok account)
 
 **AFTER INSTALLTION** \
