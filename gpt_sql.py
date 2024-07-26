@@ -6,19 +6,25 @@ import psycopg2
 from flask import Flask, request, jsonify
 
 app = Flask(__name__)
-table_catalog = #TODO Reaplce with database_name
+table_catalog = "oats"
 def run_query(input_query):
     # Connect to oats1.server.oats server
     # Requires tailscale to be active
-    CONNECTION = #TODO Replace with personal connection link here (format below)
-    #postgresql://username:password@oats1.server.oats:port_number/database_name
-    conn = None
+    #CONNECTION = "postgresql://baile343:REmHzyBiFUu6rQ@@oats1.server.oats:5432/oats"
+    #postgresql://username:password@oats1.server.oats:port_numer/database_name
+    conn = psycopg2.connect(user="baile343",
+                            password="REmHzyBiFUu6rQ@",
+                            host="oats1.server.oats",
+                            port="5432",
+                            database="oats")
+
+    #conn = None
 
     try:
         print("Connecting to purdue database...")
 
         # Create a connection with the database
-        conn = psycopg2.connect(CONNECTION)
+        #conn = psycopg2.connect(CONNECTION)
 
         # Create a cursor to interact with the database
         cursor = conn.cursor()
