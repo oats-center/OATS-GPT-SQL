@@ -14,7 +14,7 @@ def run_query(input_query):
     #postgresql://username:password@oats1.server.oats:port_numer/database_name
     conn = psycopg2.connect(user="baile343",
                             password="REmHzyBiFUu6rQ@",
-                            host="oats1.server.oats",
+                            host="oats1.oats",
                             port="5432",
                             database="oats")
 
